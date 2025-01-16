@@ -45,6 +45,7 @@
             price: product.price,
             discountPercentage: product.discountPercentage || 0,
             tags: product.category ? [product.category] : [],
+            quantitiy:50,
             image: {
               _type: 'image',
               asset: {
